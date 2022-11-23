@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/Helloworlds';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Jean Gabriel Silva
         </p>
+        <HelloWorld/>
         <a
           className="App-link"
           href="https://softexrecife.org.br/"
